@@ -19,7 +19,6 @@ body {
   font-family: "Quicksand";
   font-weight: 500;
 }
-
 .app {
   width: 100%;
   height: 100vh;
@@ -57,31 +56,30 @@ h3 {
 button,
 select,
 input {
-  background-color: #ffebb3;
-  color: #5a3e2b;
+  background-color:#ffebb3;
+  color:#5a3e2b;
   font-family: inherit;
-  border: none;
-  border-radius: 10rem;
+  border:none;
+  border-radius:10rem;
   padding: 1.2rem 3.2rem;
   font-weight: 700;
-  font-size: 1.8rem;
-  cursor: pointer;
-}
+  cursor:pointer;  
 
+} 
 .add-form button {
   text-transform: uppercase;
   background-color: #76c7ad;
 }
 
 .list {
-  background-color:#5a3e2b;
-  color: #ffebb3;
-  padding: 4rem 0;
-  display: flex;
-  justify-content: space-between;
-  flex-direction:column;
-  gap:3.2rem;
-  align-items:center;  
+ background-color:#5a3e2b;
+ color:#ffebb3;
+ padding: 4rem 0;
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+ gap:3.2rem;
+ align-items:center;
 }
 
 .actions button,
